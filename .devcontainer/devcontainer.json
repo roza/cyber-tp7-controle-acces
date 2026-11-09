@@ -1,0 +1,7 @@
+{
+  "name": "TP7 contrôle d'accès (PHP + SQLite)",
+  "image": "mcr.microsoft.com/devcontainers/php:1-8.3-bookworm",
+  "postCreateCommand": "cd php && composer install && composer init-db",
+  "forwardPorts": [8000],
+  "customizations": { "vscode": { "extensions": ["bmewburn.vscode-intelephense-client"] } }
+}
